@@ -19,7 +19,7 @@ class HelpWindow(QtWidgets.QWidget):
         widget = QtWebEngineWidgets.QWebEngineView(self)
         widget.move(0, 0)
         widget.resize(1200, 900)
-        widget.load(QtCore.QUrl("https://app.gitbook.com/o/1PfFr7ZU8J7JISs4XM51/s/rvJFj9VuFQCR0yIUwz32/"))
+        widget.load(QtCore.QUrl("https://github.com/Racheus/InvoiceDetector/blob/master/InvoiceDetector2.0/%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3.md"))
 
 def open_help_web():
     ui.help_window = HelpWindow()
